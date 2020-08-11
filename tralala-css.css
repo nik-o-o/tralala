@@ -1,10 +1,11 @@
 html {
-    background-image: url(https://img.wallpapersafari.com/desktop/1280/1024/62/97/vLsHdf.jpg);
+    background-image: url(https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95bd34713.png);
     background-size: 100%;
     background-attachment: fixed;
 }
 body{
     margin-top: 0;
+    margin-left: 0;
 }
 #home {
     background-color: lightskyblue;
@@ -16,6 +17,10 @@ body{
     top: 5px;
     z-index: +2;
 }
+#home:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
 #boards {
     background-color: lightskyblue;
     padding: 5px;
@@ -26,12 +31,9 @@ body{
     top: 5px;
     z-index: +2;
 }
-#top-light-orange-line {
-    width: 100%;
-    height: 30px;
-    background-color: lightcoral;
-    opacity: 0.6;
-    z-index: -2;
+#boards:hover {
+    cursor: pointer;
+    font-weight: bold;
 }
 #tralala {
     text-align: center;
@@ -51,11 +53,17 @@ body{
     left: 1500px;
     z-index: +2;
 }
+#plus:hover {
+    cursor: pointer;
+}
 #user {
     position: relative;
     bottom: 75px;
     left: 1450px;
     z-index: +2;
+}
+#user:hover {
+    cursor: pointer;
 }
 #lists {
     display: flex;
